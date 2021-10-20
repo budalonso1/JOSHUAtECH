@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ventaRepuestos"
+    }
+  },
+  "defaultProject": "ventaRepuestos",
+  "cli": {
+    "analytics": "2c84d910-721e-4409-8f1d-26802325a699"
+  }
 }

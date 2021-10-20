@@ -1,0 +1,1709 @@
+@font-face {
+  font-family: "citroenRegular";
+  /* src: url("../font/citroen_regular/citroen_regular.eot");
+  src: url("../font/citroen_regular/citroen_regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/citroen_regular/citroen_regular.woff") format("woff"),
+    url("../font/citroen_regular/citroen_regular.ttf") format("truetype"),
+    url("../font/citroen_regular/citroen_regular.svg#Citroen") format("svg"); */
+  src: url("../../../assets/font/citroen_regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/*
+  @font-face {
+    font-family: "citroenRegular";
+    src: url("../fonts/citroen_regular.eot");
+    src: url("../fonts/citroen_regular.eot?#iefix") format("embedded-opentype"), url("../fonts/citroen_regular.woff") format("woff"), url("../fonts/citroen_regular.ttf") format("truetype"), url("../fonts/citroen_regular.svg#Citroen") format("svg");
+    src: url("../fonts/citroen_regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  */
+
+/* @font-face {
+    font-family: "citroenLight";
+    src: url("../font/citroen_light/citroen_light.eot");
+    src: url("../font/citroen_light/citroen_light.eot?#iefix")
+        format("embedded-opentype"),
+      url("../font/citroen_light/citroen_light.woff") format("woff"),
+      url("../font/citroen_light/citroen_light.ttf") format("truetype"),
+      url("../font/citroen_light/citroen_light.svg#Citroen-Light") format("svg");
+    src: url("../font/citroen_light/citroen_light.woff2") format("woff2");
+  }
+   */
+@font-face {
+  font-family: "citroenBold";
+  /* src: url("../font/citroen_bold/citroen_bold.eot");
+    src: url("../font/citroen_bold/citroen_bold.eot?#iefix")
+        format("embedded-opentype"),
+      url("../font/citroen_bold/citroen_bold.woff") format("woff"),
+      url("../font/citroen_bold/citroen_bold.ttf") format("truetype"),
+      url("../font/citroen_bold/citroen_bold.svg#Citroen-Bold") format("svg"); */
+  src: url("../../../assets/font/citroen_bold.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+  border-radius: 0;
+  font-weight: lighter;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+.wrap {
+  width: 95%;
+  max-width: 1000px;
+  margin: 0px auto;
+}
+
+#header {
+  text-align: right;
+  padding: 20px 10px;
+}
+
+#header img {
+  max-width: 80px;
+}
+
+h1 {
+  font-family: "citroenBold";
+  color: #73a895;
+  font-size: 60px;
+}
+
+.clear {
+  clear: both;
+}
+
+.mantencion {
+  margin-bottom: 40px;
+}
+
+.mantencion .block {
+  width: 500px;
+  height: 350px;
+  background: #73a895;
+  padding: 20px 40px;
+  position: relative;
+}
+
+.mantencion .block .icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.mantencion .block .auto {
+  position: absolute;
+  right: -391px;
+  bottom: -89px;
+  max-width: 500px;
+}
+
+.mantencion .block p.title {
+  font-family: "citroenBold";
+  color: #fff;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.mantencion .block p.bajada {
+  font-family: "citroenRegular", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.mantencion .block .btn {
+  display: block;
+  text-align: center;
+}
+
+.mantencion .block .btn a {
+  display: block;
+  width: 200px;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-family: "citroenRegular", sans-serif;
+  color: #fff;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.news {
+  margin-top: 50px;
+}
+
+.news .new-block {
+  font-size: 0px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.news .new-block .image {
+  width: 374px;
+  height: 239px;
+  background-size: contain;
+  background-position: center;
+  background-color: gray;
+  float: left;
+}
+
+.news .new-block .info {
+  float: right;
+  width: 50%;
+  padding: 0px 20px;
+  font-size: 14px;
+}
+
+.news .new-block .info .date {
+  color: #d0d1d6;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+
+.news .new-block .info .title {
+  color: #73a895;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.news .new-block .info .title2 {
+  color: #73a895;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: 400;
+  font-size: 23px;
+}
+
+.news .new-block .info .bajada {
+  color: #686868;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.news .new-block .info .bajada2 {
+  color: #73a895;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.news .new-block .info .text {
+  color: #bbbbbb;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.news .new-block .info .see-more {
+  font-family: "citroenBold";
+  color: #fff;
+  display: block;
+  /*text-align: right*/
+}
+
+.news .new-block .info .see-more a {
+  background: #5eaa97;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px 60px;
+  padding-left: 15px;
+  margin-top: 20px;
+  /*border-bottom: 3px solid #686868;*/
+  position: relative;
+  border-radius: 30px;
+}
+
+.news .new-block .info .see-more a:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../../../assets/img/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.ver-mas {
+  font-family: "citroenBold";
+  color: #fff;
+  display: block;
+  text-align: center;
+}
+
+.ver-mas a {
+  background: #faf8f8;
+  display: inline-block;
+  color: black;
+  font-size: 15px;
+  padding: 7px 60px;
+  padding-left: 15px;
+  margin-top: 10px;
+  /*border-bottom: 3px solid #686868;*/
+  position: relative;
+  border-radius: 30px;
+}
+
+.ver-mas-suc a:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../../../assets/img/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.ver-mas-suc {
+  font-family: "citroenBold";
+  color: #fff;
+  display: block;
+  text-align: right;
+  margin-bottom: 10%;
+  margin-right: 6%;
+  border-top: 1px solid #dedada;
+  margin-left: 4%;
+}
+
+.ver-mas-suc a {
+  background: #73a895;
+  display: inline-block;
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 24px;
+  padding-left: 15px;
+  margin-top: 20px;
+  /*border-bottom: 3px solid #686868;*/
+  position: relative;
+  border-radius: 30px;
+}
+
+.ver-mas-suc1 a:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../../../assets/img/arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.ver-mas-suc1 {
+  font-family: "citroenBold";
+  color: #fff;
+  display: block;
+  text-align: right;
+  margin-bottom: 10%;
+  margin-right: 6%;
+
+  margin-left: 4%;
+}
+
+.ver-mas-suc1 a {
+  background: #73a895;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px 80px;
+  padding-left: 15px;
+  margin-top: 20px;
+  /*border-bottom: 3px solid #686868;*/
+  position: relative;
+  border-radius: 30px;
+}
+
+.ver-mas a:after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  /* background-image: url("../img/arrow1.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 18px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.news .new-block:nth-child(even) .image {
+  float: right;
+}
+
+.news .new-block:nth-child(even) .info {
+  float: left;
+  text-align: right;
+}
+
+.news .new-block:nth-child(even) .info .see-more {
+  text-align: left;
+}
+
+.news .new-block.more {
+  text-align: center;
+  font-family: "citroenBold";
+}
+
+.news .new-block.more p.number {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #909090;
+}
+
+.news .new-block.more a {
+  display: inline-block;
+  vertical-align: middle;
+  background: #999999;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 30px;
+  border-bottom: 3px solid #686868;
+  position: relative;
+  font-family: "citroenRegular";
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "citroenBold";
+  background: #73a895;
+  color: #fff;
+  font-size: 50px;
+  display: inline-block;
+  padding: 7px 80px 7px 20px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "citroenLight";
+  color: #909090;
+  margin-top: 5px;
+}
+
+section.catalogo {
+  background: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0px;
+  background-color: #73a895;
+}
+
+section.catalogo div.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+  margin: 0px 20px;
+}
+
+section.catalogo div.block .image {
+  padding: 2px;
+  border: 2px solid #cecece;
+  width: 100%;
+}
+
+section.catalogo div.block .image img {
+  width: 100%;
+}
+
+section.catalogo div.block .name {
+  font-size: 15px;
+  color: #686868;
+  border: 2px solid #cecece;
+  padding: 5px;
+  font-family: "citroenRegular";
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+section.news-inside {
+  padding: 5px;
+}
+
+section.news-inside .options {
+  text-align: right;
+  font-size: 0px;
+}
+
+section.news-inside .options .btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+section.news-inside .options .btn:first-child a {
+  background: #73a895;
+}
+
+section.news-inside .options .btn a {
+  padding: 5px 20px;
+  background: gray;
+  color: #fff;
+  font-size: 12px;
+  font-family: "citroenRegular", sans-serif;
+}
+
+section.news-inside .date {
+  color: #d0d1d6;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+}
+
+section.news-inside .title {
+  color: #73a895;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+
+section.news-inside .image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-size: cover;
+  background-position: center;
+  background-color: gray;
+}
+
+section.news-inside .info {
+  margin-top: 20px;
+  color: #858585;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+section.news-inside .legales {
+  font-size: 10px;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+section.news-inside.decisiones {
+  font-size: 0px;
+}
+
+section.news-inside.decisiones .image {
+  width: 40%;
+  padding-bottom: 40%;
+  display: inline-block !important;
+  vertical-align: top !important;
+}
+
+section.news-inside.decisiones .info-desct {
+  width: 60%;
+  display: inline-block !important;
+  vertical-align: top !important;
+  padding-left: 10px;
+}
+
+section.news-inside.decisiones .block {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+section.news-inside.decisiones .block p {
+  font-size: 10px;
+}
+
+section.news-inside.decisiones .block img {
+  width: 100%;
+}
+
+section.news-inside.decisiones .title {
+  color: #55468d;
+  font-weight: 600;
+}
+
+.landing-necesita {
+  max-width: 950px;
+}
+
+.landing-necesita header .logo-text {
+  float: left;
+  text-align: left;
+  font-family: "citroenLight";
+}
+
+.landing-necesita header .logo-text p.text {
+  font-size: 36px;
+  color: #808080;
+  line-height: 34px;
+}
+
+.landing-necesita header .logo-text p.text span {
+  font-family: "citroenBold";
+  color: #ff412d;
+}
+
+.landing-necesita header .logo-text p.text:nth-child(2) {
+  font-size: 40px;
+  font-family: "citroenRegular";
+}
+
+.landing-necesita header .logo-text p.bajada {
+  font-family: "citroenRegular";
+  font-size: 20px;
+  color: #808080;
+  border-top: 1px solid #ff412d;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.landing-necesita .baner {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.landing-necesita .baner img {
+  width: 100%;
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.landing-necesita .baner .logo {
+  float: right;
+}
+
+.landing-necesita section.news-inside.servicio-te-espera .blocks {
+  font-size: 0px;
+  margin-bottom: 30px;
+}
+
+.landing-necesita section.news-inside.servicio-te-espera .blocks .title {
+  font-size: 25px;
+  display: block;
+  font-family: "citroenRegular";
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #ff412d;
+}
+
+.landing-necesita section.news-inside.servicio-te-espera .blocks .info {
+  float: left;
+  width: calc(100% - 250px);
+  background-color: #b9b9aa;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 0px;
+}
+
+.landing-necesita section.news-inside.servicio-te-espera .blocks .info ul li {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks
+  .info
+  ul
+  li:after {
+  content: "";
+  width: 20px;
+  height: 60px;
+  /* background-image: url("../img/mark.png"); */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.landing-necesita section.news-inside.servicio-te-espera .blocks .info ul li p {
+  color: #fff;
+  font-family: "citroenLight";
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 0px 60px;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks
+  .info
+  ul
+  li
+  p.name {
+  font-size: 20px;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks
+  .info
+  ul
+  li
+  p.price {
+  text-align: left;
+  color: #6e6e6e;
+  font-family: "citroenBold";
+  font-size: 17px;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks
+  .info
+  p.legales {
+  text-align: left;
+  color: black;
+  font-size: 13px;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks
+  .info
+  ul
+  li
+  p
+  strong {
+  font-family: "citroenRegular";
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks
+  .info
+  ul
+  li
+  p
+  span {
+  color: #ff412d;
+}
+
+.landing-necesita section.news-inside.servicio-te-espera .blocks .image {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks:nth-child(even)
+  .info {
+  float: right;
+}
+
+.landing-necesita
+  section.news-inside.servicio-te-espera
+  .blocks:nth-child(even)
+  .image {
+  float: left;
+}
+
+.mercado-libre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffef51;
+  width: 100%;
+  min-height: 210px;
+  border-radius: 25px;
+  padding: 20px 0 20px 0;
+  margin-top: 4%;
+}
+
+.logo-ml {
+  width: 30%;
+  text-align: center;
+}
+
+.text-ml {
+  width: 70%;
+}
+
+.text-ml > p {
+  font-size: 30px;
+  line-height: 34px;
+  font-family: "citroenRegular";
+  text-align: left;
+  letter-spacing: 3px;
+}
+
+.mercado-libre .logo-ml img {
+  width: 50%;
+}
+
+.title-catalogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-catalogo img {
+  width: 30%;
+}
+
+.section-catalog {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.car-catalog {
+  margin: 2%;
+  width: 21%;
+}
+
+.car-catalog img {
+  width: 100%;
+}
+
+.car-catalog p {
+  font-family: "citroenRegular";
+  color: white;
+  font-size: 16px;
+  margin-top: 5%;
+}
+
+.sucursales-abiertas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title p {
+  text-align: center;
+  font-family: "citroenRegular";
+  color: #73a895;
+  font-size: 30px;
+}
+
+.sucursal {
+  margin: 2%;
+  max-width: 358px;
+  border-radius: 20px;
+}
+
+.sucursal img {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+  display: block;
+}
+
+.name-sucursal {
+  text-align: left;
+  font-family: "citroenBold";
+  margin: 4% 7%;
+  margin-bottom: 10px;
+  color: #686868;
+  font-size: 18px;
+  margin-top: 0px;
+  padding-top: 10px;
+  /*height: 56px;*/
+}
+
+.name-concesionario {
+  text-align: left;
+  font-family: "citroenRegular";
+  margin-left: 7%;
+  margin-top: -4%;
+  color: #d0d1dc;
+  font-size: 18px;
+}
+
+.name-address {
+  text-align: left;
+  font-family: "citroenRegular";
+  font-size: 16px;
+  color: #686868;
+  margin: 8% 7%;
+  height: 40px;
+}
+
+.name-phone {
+  text-align: left;
+  font-family: "citroenRegular";
+  margin: 4% 7%;
+  color: #686868;
+  font-size: 16px;
+}
+
+.sucursal-info {
+  border: 0.5px solid #dedada;
+  border-top: 0px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.title-sucursales {
+  margin-bottom: 2%;
+}
+.title-sucursales p {
+  font-weight: 400;
+}
+
+.title-sucursales strong {
+  font-weight: 700;
+}
+
+.table_sucursal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title-comuna {
+  text-align: center;
+  width: 100%;
+  background-color: #5eaa97;
+  border: 0.8px solid #bbbbbb;
+}
+
+.section-title-comuna p {
+  color: white;
+  font-family: "CitroenBold";
+}
+
+.list-sucursal {
+  width: 25%;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 355px;
+}
+
+.list-sucursal p {
+  font-family: "PT Sans", sans-serif;
+  color: #bbbbbb;
+  margin: 1%;
+}
+
+.btn-sucursal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.section-list-sucursal {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-sucursal-m {
+  /*border-left: 0.8px solid #bbbbbb;*/
+  border-right: 0.8px solid #bbbbbb;
+  border-bottom: 0.8px solid #bbbbbb;
+}
+.list-sucursal-n {
+  border-left: 0.8px solid #bbbbbb;
+  border-right: 0.8px solid #bbbbbb;
+  border-bottom: 0.8px solid #bbbbbb;
+}
+.list-sucursal-s {
+  border-right: 0.8px solid #bbbbbb;
+  border-bottom: 0.8px solid #bbbbbb;
+}
+
+.horario-sect p {
+  font-family: "PT Sans", sans-serif;
+  color: #bbbbbb;
+  margin: 1%;
+}
+
+.horario-sect {
+  border-right: 0.8px solid #bbbbbb;
+}
+.row-text-img {
+  margin-top: 6%;
+}
+
+.text1 {
+  font-family: "citroenBold";
+  font-size: 2rem;
+  margin-bottom: 0px;
+  line-height: 30px;
+}
+
+.text2 {
+  font-family: "citroenRegular";
+  margin-top: 5%;
+  font-size: 1rem;
+  width: 95%;
+}
+
+.img-right {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.img-right > img {
+  width: 100%;
+  height: 100%;
+}
+
+.box2-img {
+  width: 100%;
+  height: 230px;
+}
+.box2-img > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.row-otrasofertas {
+  height: 80px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto !important;
+}
+
+.img-otrasofertas {
+  width: 30%;
+  margin: 0 auto;
+  height: 80px;
+}
+.col-divider {
+  display: flex;
+  align-items: center;
+}
+.img-otrasofertas > img {
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  width: 30%;
+  margin: 0;
+  border-top: 1px solid #df4601 !important;
+}
+
+.row-eurorepar {
+  width: 80%;
+  margin: 0 auto !important;
+}
+.row-packs {
+  margin-bottom: 5%;
+}
+.box3-img {
+  width: 100%;
+  height: 90%;
+}
+.box3-img > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.box-legales {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.text-legales {
+  font-size: 0.55rem;
+  line-height: 10px;
+  text-align: center;
+  font-family: "citroenBold";
+}
+
+.banner img {
+  width: 100%;
+}
+
+.rowcars img {
+  width: 100%;
+}
+
+.col-cars {
+  height: 250px;
+}
+
+/* Variables
+  ================================== */
+/* Tables
+  ================================== */
+.Rtable {
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 0 0 3em 0;*/
+  padding: 0;
+}
+.Rtable-cell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.6em 0em;
+  overflow: hidden;
+  list-style: none;
+  border: solid 1px #ffffff;
+  background: rgba(112, 128, 144, 0.2);
+}
+.Rhorario {
+  box-sizing: border-box;
+  flex-grow: 1;
+  width: 50%;
+  padding: 0px;
+  overflow: hidden;
+  list-style: none;
+}
+
+.Rhorario-l {
+  border-right: 1px solid gray;
+}
+
+.cell-impar {
+  background-color: gray;
+}
+
+.content-col {
+  font-family: "PT sans";
+  color: #686868;
+  font-size: 14px;
+  text-align: center;
+}
+.Rtable-cell > h1,
+.Rtable-cell > h2,
+.Rtable-cell > h3,
+.Rtable-cell > h4,
+.Rtable-cell > h5,
+.Rtable-cell > h6 {
+  margin: 0;
+}
+/* Table column sizing
+  ================================== */
+.Rtable--2cols > .Rtable-cell {
+  width: 50%;
+}
+.Rtable--3cols > .Rtable-cell {
+  width: 33.33%;
+}
+.Rtable--4cols > .Rtable-cell {
+  width: 25%;
+}
+.Rtable--5cols > .Rtable-cell {
+  width: 20%;
+}
+.Rtable--6cols > .Rtable-cell {
+  width: 16.6%;
+}
+/* Page styling
+  ================================== */
+
+.title-columna {
+  background-color: #5eaa97;
+  color: white;
+  font-family: "CitroenBold";
+  text-align: center;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 800px) {
+  .text1 {
+    font-size: 1.5rem;
+  }
+  .text2 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  .img-right {
+    margin-top: 3%;
+    width: 75%;
+  }
+
+  .box2-img {
+    width: 100%;
+    height: 250px;
+  }
+  .img-otrasofertas {
+    width: 50%;
+    margin: 0 auto;
+    height: 80px;
+  }
+  .box3-img {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .box-eurorepar {
+    height: 400px;
+  }
+  .row-otrasofertas {
+    width: 100%;
+  }
+  .row-packs {
+    margin-bottom: 0%;
+  }
+
+  .box-legales {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .text-legales {
+    font-size: 0.5rem;
+  }
+  .rowcars img {
+    width: 78%;
+  }
+  .col-cars {
+    height: auto;
+  }
+  .banner img {
+    height: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1,
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 896px) {
+  .mantencion .block {
+    width: 100%;
+  }
+  .mantencion .block p.title {
+    font-size: 30px;
+  }
+  .mantencion .block .auto {
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    display: none;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-necesita section.news-inside.servicio-te-espera .blocks {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  .landing-necesita section.news-inside.servicio-te-espera .blocks .image {
+    float: none !important;
+    margin: 0px auto !important;
+    margin-bottom: 20px !important;
+  }
+  .landing-necesita section.news-inside.servicio-te-espera .blocks .info {
+    float: none !important;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+  .text-2 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+}
+
+.banner_interno {
+  width: 90%;
+  height: auto;
+}
+
+.landing-sin-sorpresas {
+  max-width: 950px;
+}
+
+.landing-sin-sorpresas header .logo-text {
+  float: left;
+  text-align: left;
+  font-family: "citroenLight";
+}
+
+.landing-sin-sorpresas header .logo-text p.text {
+  font-size: 36px;
+  color: #808080;
+  line-height: 34px;
+}
+
+.landing-sin-sorpresas header .logo-text p.text span {
+  font-family: "citroenBold";
+  color: #ff412d;
+}
+
+.landing-sin-sorpresas header .logo-text p.text:nth-child(2) {
+  font-size: 40px;
+  font-family: "citroenRegular";
+}
+
+.landing-sin-sorpresas header .logo-text p.bajada {
+  font-family: "citroenRegular";
+  font-size: 20px;
+  color: #808080;
+  border-top: 1px solid #ff412d;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.landing-sin-sorpresas .baner {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.landing-sin-sorpresas .baner img {
+  width: 100%;
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.landing-sin-sorpresas .baner .logo {
+  float: right;
+}
+
+.landing-sin-sorpresas section.info-block .block {
+  font-size: 0px;
+  margin-bottom: 30px;
+}
+
+.landing-sin-sorpresas section.info-block .block .title {
+  font-size: 25px;
+  display: block;
+  font-family: "citroenRegular";
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #ff412d;
+}
+
+.landing-sin-sorpresas section.info-block .block .info {
+  float: left;
+  width: calc(100% - 250px);
+  background-color: #b9b9aa;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li {
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li:after {
+  content: "";
+  width: 20px;
+  height: 60px;
+  /* background-image: url("../img/mark.png"); */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li p {
+  color: #fff;
+  font-family: "citroenLight";
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 0px 60px;
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li p.name {
+  font-size: 20px;
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li p.price {
+  text-align: center;
+  color: #6e6e6e;
+  font-family: "citroenBold";
+  font-size: 17px;
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li p strong {
+  font-family: "citroenRegular";
+}
+
+.landing-sin-sorpresas section.info-block .block .info ul li p span {
+  color: #ff412d;
+}
+
+.landing-sin-sorpresas section.info-block .block .image {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  border-radius: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-sin-sorpresas section.info-block .block:nth-child(even) .info {
+  float: right;
+}
+
+.landing-sin-sorpresas section.info-block .block:nth-child(even) .image {
+  float: left;
+}
+
+.title-pag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-pag img {
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  h1,
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 896px) {
+  .mantencion .block {
+    width: 100%;
+  }
+  .mantencion .block p.title {
+    font-size: 30px;
+  }
+  .mantencion .block .auto {
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    display: none;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 800px) {
+  .landing-sin-sorpresas section.info-block .block {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+  }
+  .landing-sin-sorpresas section.info-block .block .image {
+    float: none !important;
+    margin: 0px auto !important;
+    margin-bottom: 20px !important;
+  }
+  .landing-sin-sorpresas section.info-block .block .info {
+    float: none !important;
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 650px) {
+  .content-col p {
+    height: 100%;
+    padding: 9px;
+  }
+  .Rhorario-l {
+    padding: 9px;
+  }
+  .Rhorario-r {
+    padding: 9px;
+  }
+
+  .Rhorario-l-large {
+    padding: 0px;
+  }
+
+  .Rtable--4cols > .Rtable-cell {
+    width: 25%;
+    height: 47px;
+  }
+  .title-columna {
+    font-size: 12px;
+  }
+  .content-col {
+    font-size: 0.6em;
+  }
+  .title p {
+    font-size: 22px;
+  }
+  .section-title-comuna p {
+    font-size: 12px;
+  }
+  .list-sucursal p {
+    margin: 8%;
+    font-size: 10px;
+  }
+  .list-sucursal {
+    height: 320px;
+  }
+  section.news-inside.servicio-te-espera .image,
+  section.news-inside.decisiones .image {
+    display: block !important;
+    margin: 0px auto;
+  }
+  section.news-inside.servicio-te-espera .info-desct,
+  section.news-inside.decisiones .info-desct {
+    width: 100% !important;
+  }
+  section.news-inside.servicio-te-espera .title,
+  section.news-inside.decisiones .title {
+    text-align: center !important;
+    font-size: 29px !important;
+  }
+  .news {
+    text-align: center !important;
+  }
+  .news .new-block {
+    text-align: center !important;
+  }
+  .news .new-block .image {
+    float: none !important;
+    display: block;
+    margin: 0px auto !important;
+  }
+  .news .new-block .info {
+    float: none !important;
+    width: 100%;
+    display: block;
+  }
+  .news .new-block .info .text,
+  .news .new-block .info .title {
+    text-align: center !important;
+  }
+  .news .new-block .info .see-more {
+    text-align: center !important;
+  }
+  .sucursales-abiertas {
+    flex-wrap: wrap;
+  }
+  .mercado-libre .logo-ml {
+    width: 30%;
+  }
+  .mercado-libre .logo-ml img {
+    width: 100%;
+    margin: 0% 12%;
+  }
+  .text-ml > p {
+    font-size: 15px;
+    line-height: 34px;
+    font-family: "citroenRegular";
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0% 7%;
+    margin-top: 7%;
+  }
+  .mercado-libre {
+    margin: 7% 0%;
+  }
+}
+
+.options {
+  text-align: right;
+  font-size: 0px;
+}
+
+.options .btn {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.options .btn:first-child a {
+  background: #73a895;
+}
+
+.options .btn a {
+  padding: 5px 20px;
+  background: gray;
+  color: #fff;
+  font-size: 12px;
+  font-family: "citroenRegular", sans-serif;
+}
+
+.llantas-neumaticos header .text-a {
+  font-family: "citroenBold";
+  font-size: 36px;
+  color: #393e3f;
+  line-height: 34px;
+  font-weight: 700;
+  line-height: 0.9;
+}
+
+.llantas-neumaticos header .text-b {
+  font-size: 40px;
+  font-family: "citroenBold";
+  color: #00a08a;
+  line-height: 0.9;
+}
+
+.llantas-neumaticos header .text-b span {
+  font-family: "citroenRegular";
+}
+
+.llantas-neumaticos .info {
+  font-family: "citroenRegular";
+  width: 39%;
+  box-sizing: content-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.llantas-neumaticos .info h1 {
+  color: #00a08a;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.llantas-neumaticos .info h1 span {
+  font-size: 170%;
+}
+
+.llantas-neumaticos .info p {
+  color: #63666a;
+  font-size: 25px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+
+.llantas-neumaticos .info strong {
+  font-family: "citroenBold";
+}
+
+.llantas-neumaticos .new-image {
+  width: 60%;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+.llantas-neumaticos .new-image img {
+  width: 100%;
+}
+
+.llantas-neumaticos .baner img {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.llantas-neumaticos .date {
+  color: #d0d1d6;
+  font-family: "citroenRegular", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  margin: 20px 0px 10px;
+  border-bottom: 1px solid #ccc;
+  text-align: right;
+}
+
+#llanta-box {
+  border-top: 1px solid #cccccc;
+  margin-top: 7px;
+  padding-top: 10px;
+}
+
+#llanta-box .llanta-image {
+  width: 30%;
+  display: inline-block;
+}
+
+#llanta-box .llanta-info-box {
+  width: 69%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+#llanta-box .llanta-info-box h3 {
+  font-family: "citroenBold";
+  color: #00a08a;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#llanta-box .llanta-info-box p {
+  font-family: "citroenRegular";
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 15px;
+  border: 2px solid #01a18b;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+#llanta-box .llanta-info-box .text-mini {
+  font-family: "citroenRegular";
+  font-size: 16px;
+  color: #828282;
+  margin: 5px 0;
+}
+
+@media (max-width: 824px) {
+  .llantas-neumaticos .new-image {
+    width: 100%;
+    text-align: center;
+  }
+  .llantas-neumaticos .info {
+    width: 100%;
+    text-align: center;
+  }
+  #llanta-box .llanta-image {
+    width: 100%;
+    text-align: center;
+  }
+  #llanta-box .llanta-info-box {
+    width: 100%;
+    text-align: center;
+  }
+}
